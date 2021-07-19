@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>WriteYourBlog</title>
+
+<link rel="stylesheet" href="styleform.css">
+</head>
+
+<body>
+	<div class="Content">
+		<h1>WRITE YOUR BLOG</h1><br>
+	</div>
+	<div class="form">
+		<div class="formfill">
+		<p><span style="color:red">Required field*</span> </p>
+		<form action="WriteBlog.php"  method="post">
+			<label for="Author">NAME:</label><span style="color:red">*</span> 
+			<input type="text" name="Author"><br><br>
+
+			<label for="email">ENTER YOUR EMAIL</label><span style="color:red">*</span> 
+			<input type="text" name="email"><br><br>
+
+
+			<label for="Technology">ENTER YOUR REALTED BLOG TECHNOLOGY:<span style="color:red">*</span> </label><br><br>
+
+			<input type="radio" name="Technology" value="Machine learning">MACHINE LEARNING(ML)<br>
+  			<input type="radio" name="Technology" value="Computer Vision">COMPUTER VISION<br>
+  			<input type="radio" name="Technology" value="DSA">DATA STRUCTURE AND ALGORITHM(DSA)<br>
+  			<input type="radio" name="Technology" value="Androiddev">ANDROID<br>
+  			<input type="radio" name="Technology" value="CCVT">CLOUD COMPUTING<br>
+  			<input type="radio" name="Technology" value="Devops">DEVOPS<br>
+  			<input type="radio" name="Technology" value="Webdev">WEB DEVELOPMENT<br>
+  			<input type="radio" name="Technology" value="other">Other<br><br>
+
+  			<label for="title">GIVE A TITLE TO YOUR BLOG:</label><span style="color:red">*</span>
+  			<input type="text" name="Title"><br><br>
+
+			<label for="Content">WRITE YOUR BLOG:</label><span style="color:red">*</span><br>
+			<textarea name="Content" rows="5" cols="100"></textarea><br><br>
+
+			<label for="type">What is the type of your Blog</label><br>
+			<input type="checkbox" name="Type" value="Basic">BASIC<br>
+			<input type="checkbox" name="Type" value="Advance">ADVANCE<br><br>
+
+			<label for="Date">DATE OF PUBLISH</label>
+			<input type="date"  name="Date"><br>
+			
+			<input type="submit" value="SUBMIT">
+			<input type="RESET">
+
+
+		</form>
+	</div>
+
+	</div>
+</html>
