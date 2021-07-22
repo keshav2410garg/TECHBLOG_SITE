@@ -7,3 +7,5 @@
 This is the blogging site that uses all the scripting language used in building a web site.
 A user can navigate to all the techstack in which interest goes and blog and read others ideas on that same tech.It makes use of HTML Aand CSS at front end.
 And in the back it stores all the blogs in the structured database using MYSQL and makes use of PHP
+
+![FRONT PAGE](images/frontui.gif)
