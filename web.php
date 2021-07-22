@@ -1,20 +1,20 @@
 <style>
 	.Author{
-		color: white;
+		color: black;
 		padding-left: 50px;
 		padding-top: 120px;
 		/*margin: 25px 50px 75px 100px;*/
 	}
 	.Title{
 		margin-top: 10px;
-		color: white;
+		color: black;
 		padding-left: 50px;
 		font-weight: bold;
 		/*margin: 25px 50 75px 100px;*/
 	}
 	.Content{
 		margin-top: 10px;
-		color: white;
+		color: black;
 		padding-left: 50px;
 		padding-right:150px;
 		font-size: large;
@@ -22,16 +22,13 @@
 	}
 	.date{
 		margin-top: 10px;
-		color: white;
+		color: black;
 		padding-left: 50px;
 	}
 
 
 
 </style>
-
-
-
 <?php
 		$servername="localhost";
 	$username="Keshav";
@@ -42,7 +39,7 @@
 		die("Connection Unsuccessful" . mysqli_connect_error());
 	}
 		
-		$sql="SELECT* FROM BLOG WHERE TECHNOLOGY='Androiddev '";
+		$sql="SELECT* FROM BLOG WHERE TECHNOLOGY='Webdev'";
 		$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
@@ -61,19 +58,16 @@
 ?>
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Android_Blogs</title>
+	<title>WEBDEV_Blogs</title>
 	<style >
 		body{
 			width: 100%;
 			height:100vh;
-			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/android.jpg);
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: center;
-			background-attachment: scroll;
+			background-color: lightgreen;
 		}
 		.TopContent h1{
 			width: 100%;
@@ -83,13 +77,13 @@
 			/*margin-top: 30px;*/
 			font-family: "Cursive";
 			text-align: center;
-			color: #fff;
+			color: black;
 		}
 	</style>
 </head>
 <body>
 	<div class="TopContent">
-		<h1>ANDROID DEVELOPMENT</h1>
+		<h1>WEB DEVELOPMENT</h1>
 
 
 	</div>

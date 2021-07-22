@@ -24,9 +24,9 @@
 		#echo $Type;
 
 		$sql="INSERT INTO BLOG (AUTHOR,TECHNOLOGY,TITLE,CONTENT,DATE_OF_PUB,TYPE) VALUES('$Author','$Technology','$Title','$content','$date_of_pub','$Type')";
-		echo $sql;
 		if (mysqli_query($conn, $sql)) {
   				echo "New record created successfully<br>";
+  				echo "Your blog has been mailed";
 		} 
 		else {
  		 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
@@ -34,10 +34,6 @@
 
 		
 	}
-
-
-
-
 
 
 
