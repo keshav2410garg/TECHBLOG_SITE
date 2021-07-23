@@ -11,3 +11,7 @@ And in the back it stores all the blogs in the structured database using MYSQL a
 ## MAIN BLOG PAGE & WRITE BLOG PAGE
 
 ![FRONT PAGE](images/frontui.gif)
+
+## NAVIGATION AND GOING ACROSS DIFFRENT TECH BLOGS
+
+![FRONT PAGE](images/page.gif)
